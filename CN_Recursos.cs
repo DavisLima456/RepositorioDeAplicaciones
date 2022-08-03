@@ -41,6 +41,7 @@ namespace CapaNegocio
             return Sb.ToString();
         }
 
+        //Metodo para enviar correos Electronicos. 
         public static bool EnviarCorreo(string correo, string asunto, string mensaje)
         {
             bool resultado = false;
